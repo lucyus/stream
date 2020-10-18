@@ -19,10 +19,10 @@ OR
 
 In `your-file.js`, write :
 ```js
-let Stream = require('@lucyus/stream');
+let { Stream } = require('@lucyus/stream');
 let stream = new Stream();
 stream.subscribe((data) => {
-    console.log('subscribe callback received : ', data);
+    console.log('Subscribe callback received : ', data);
 });
 stream.send('Hello !');
 stream.send('Your callbacks are receiving data !');
@@ -37,7 +37,7 @@ In `your-file.ts`, write :
 import { Stream } from '@lucyus/stream';
 let stream: Stream<string> = new Stream<string>();
 stream.subscribe((data: string) => {
-    console.log('subscribe callback received : ', data);
+    console.log('Subscribe callback received : ', data);
 });
 stream.send('Hello !');
 stream.send('Your callbacks are receiving data !');
