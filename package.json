@@ -1,0 +1,32 @@
+{
+  "name": "@lucyus/stream",
+  "version": "1.0.0",
+  "description": "Stream is a lightweight package made to manipulate data reactively.",
+  "main": "lib/index.js",
+  "types": "lib/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucyus/stream.git"
+  },
+  "keywords": [
+    "stream",
+    "reactive",
+    "asynchronous",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Lucyus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lucyus/stream/issues"
+  },
+  "homepage": "https://github.com/lucyus/stream#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
