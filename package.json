@@ -1,6 +1,6 @@
 {
   "name": "@lucyus/stream",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Stream is a lightweight package made to manipulate data reactively.",
   "main": "lib/index.js",
   "types": "lib/",
