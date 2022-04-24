@@ -1,12 +1,12 @@
 {
   "name": "@lucyus/stream",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Stream is a lightweight package made to manipulate data reactively.",
   "main": "lib/index.js",
   "types": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "npx tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/lucyus/stream#readme",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.0.3"
+    "typescript": "^4.6.3"
   }
 }

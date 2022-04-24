@@ -1,0 +1,1 @@
+{"version":3,"file":"emitter.interface.d.ts","sourceRoot":"","sources":["../../src/interfaces/emitter.interface.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,WAAW,OAAO,CAAC,QAAQ,EAAE,SAAS,GAAG,GAAG;IAC9C,IAAI,CAAC,IAAI,EAAE,QAAQ,GAAG,IAAI,CAAC;IAC3B,KAAK,CAAC,MAAM,CAAC,EAAE,SAAS,GAAG,IAAI,CAAC;IAChC,QAAQ,IAAI,IAAI,CAAC;CACpB"}

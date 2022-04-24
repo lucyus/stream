@@ -1,0 +1,1 @@
+{"version":3,"file":"subscribable.interface.d.ts","sourceRoot":"","sources":["../../src/interfaces/subscribable.interface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,GAAG,CAAC;AACnC,OAAO,EAAE,UAAU,EAAE,MAAM,UAAU,CAAC;AAEtC,MAAM,WAAW,YAAY,CAAC,QAAQ,EAAE,SAAS,GAAG,GAAG;IACrD,SAAS,CAAC,UAAU,EAAE,UAAU,CAAC,QAAQ,EAAE,SAAS,CAAC,GAAG,cAAc,CAAC;CACxE"}
