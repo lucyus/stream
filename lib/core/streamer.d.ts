@@ -50,5 +50,12 @@ export declare class Streamer<DataType, ErrorType = any> extends Stream<DataType
      * Detach all subscriptions from this streamer.
      */
     unsubscribe(): void;
+    /**
+     * Insert this {@link Streamer} inside a {@link Stream} in order to make it
+     * read-only.
+     * @returns `Stream<DataType, ErrorType>` A new {@link Streamer} without
+     *                                        {@link Emitter} capabilities.
+     */
+    toStream(): Stream<DataType, ErrorType>;
 }
 //# sourceMappingURL=streamer.d.ts.map

@@ -128,4 +128,14 @@ export class Streamer<DataType, ErrorType = any>
     this._subscriptions = [];
   }
 
+  /**
+   * Insert this {@link Streamer} inside a {@link Stream} in order to make it
+   * read-only.
+   * @returns `Stream<DataType, ErrorType>` A new {@link Streamer} without
+   *                                        {@link Emitter} capabilities.
+   */
+  public toStream(): Stream<DataType, ErrorType> {
+    return new Stream<DataType, ErrorType>(this);
+  }
+
 }

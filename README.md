@@ -1,4 +1,5 @@
 # Stream
+
 **Stream** is a lightweight package made to manipulate data reactively through the Observer Design Pattern.
 
 ## Install
@@ -133,7 +134,7 @@ setTimeout(() => {
 /* ... */
 subscription.unsubscribe();
 /* ... */
-streamer.unsubscrible();
+streamer.unsubscribe();
 /* ... */
 ```
 
